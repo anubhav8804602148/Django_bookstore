@@ -1,0 +1,30 @@
+<div id=container>
+    <div id="mess">
+      <p>Welcome {{user}} !!!</p>
+    </div>
+
+    <div id="login">
+      <form>
+        User Id : <input type="text"><br><br>
+        Password : <input type="password"><br><br>
+        <input type="submit"><br><br>
+        <p style="font-size: 13px;">Not {{user}}! Click <a href="DisplayName">here</a></p>
+      </form>
+    </div>
+</div>
+
+<style>
+  #container{
+    position: absolute;
+    left: 30%;
+    top: 20%;
+  }
+  #mess{
+    color:red;
+    font-size: 30px;
+  }
+  #login{
+    border-style: ridge;
+    padding: 20px;
+  }
+</style>

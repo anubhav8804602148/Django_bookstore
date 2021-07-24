@@ -1,0 +1,36 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<div id=container>
+    <div id="mess">
+      <p>Change name here</p>
+    </div>
+
+    <div id="login">
+      <form>
+        Your Name : <input type="text"><br><br>
+        <input type="submit"><br><br>
+      </form>
+    </div>
+</div>
+<script>
+  $("form").submit(function(){
+    $.post(
+      "https://0.0.0.0:8000/home", 
+      {"user": "Sharma"}
+    );
+  });
+</script>
+<style>
+  #container{
+    position: absolute;
+    left: 30%;
+    top: 20%;
+  }
+  #mess{
+    color:red;
+    font-size: 30px;
+  }
+  #login{
+    border-style: ridge;
+    padding: 20px;
+  }
+</style>
