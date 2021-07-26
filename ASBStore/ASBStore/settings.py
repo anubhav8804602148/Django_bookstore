@@ -25,7 +25,10 @@ SECRET_KEY = 'e-^x46*c%-ei1gaf-lky4l$k^_(^b2m%fe9^^!7*+s8k6#nhep'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['servern1tj6gqg-ws-dev-server-8000.in-dc-1.projects.hackerrank.net']
+ALLOWED_HOSTS = [
+  'servern1tj6gqg-ws-dev-server-8000.in-dc-1.projects.hackerrank.net',
+  'serverm4z1565w-ws-dev-server-8000.in-dc-1.projects.hackerrank.net',
+  ]
 
 
 # Application definition
