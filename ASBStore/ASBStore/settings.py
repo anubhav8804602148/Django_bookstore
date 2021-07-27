@@ -26,6 +26,8 @@ SECRET_KEY = 'e-^x46*c%-ei1gaf-lky4l$k^_(^b2m%fe9^^!7*+s8k6#nhep'
 DEBUG = True
 
 ALLOWED_HOSTS = [
+  'serverdyz7vog6-ws-dev-server-8000.in-dc-3.projects.hackerrank.net',
+  'serverdyz7vog6-ws-dev-server-8000.in-dc-3.projects.hackerrank.net',
   'servern1tj6gqg-ws-dev-server-8000.in-dc-1.projects.hackerrank.net',
   'serverm4z1565w-ws-dev-server-8000.in-dc-1.projects.hackerrank.net',
   ]
@@ -58,7 +60,7 @@ ROOT_URLCONF = 'ASBStore.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

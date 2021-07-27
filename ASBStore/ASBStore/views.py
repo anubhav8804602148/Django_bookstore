@@ -1,17 +1,17 @@
 from django.shortcuts import render
-
+from django.http import HttpResponse
 
 def home(request):
-  pass
+  return render(request, "home.html", {"user":"Anubhav"})
 
 def books(request):
-  pass
+  return HttpResponse("")
 
 def users(request):
-  pass
+  return HttpResponse("")
 
 def login(request):
-  pass
+  return HttpResponse("")
 
 def register(request):
-  pass
+  return HttpResponse("")
